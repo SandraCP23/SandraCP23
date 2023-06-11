@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pollo Feliz</title>
+  <style>
+    body {
+      background-image: url("portada.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-size: 22px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .form-container {
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid #eee;
+      box-shadow: 0px 0px 10px gray;
+    }
+    h1 {
+      color: #FFFFFF;
+    }
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+      color: #fff;
+    }
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    .form-container button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .btn-registrar {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .form-container .btn-registrar:hover {
+      background-color: #0BF803;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>Inicia Sesion</h1>
+      <form>
+        <label for="name">Usuario:</label>  
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Contraseña:</label>
+        <input type="email" id="email" name="email" required><br>
+        <a style="color:#FFFFFF; font-size: 17px;" href="mailto:paul07alvarez@gmail.com">Olvidaste tu contraseña</a><br><br>
+        <a href="formulario.html" class="btn-registrar">Registrarme</a><br><br>
+        <a href="productos.html" class="btn-registrar">Continuar</a><br><br>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
